@@ -17,7 +17,7 @@
 using namespace std;
 using namespace dns;
 
-void Server::init(int port) throw (Exception) {
+void Server::init(int port) throw () {
 
     Logger& logger = Logger::instance();
     logger.trace("Server::init()");

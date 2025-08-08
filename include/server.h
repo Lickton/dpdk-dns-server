@@ -43,7 +43,7 @@ public:
      *  the INADDR_ANY address and the port passed.
      *  @param port Port number where the socket is binded.
      */
-    void init(int port) throw(Exception);
+    void init(int port) throw();
 
     /**
      *  The socket server runs in an infinite loop, waiting for queries and

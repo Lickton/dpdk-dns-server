@@ -15,7 +15,7 @@
 using namespace dns;
 using namespace std;
 
-void Application::parse_arguments(int argc, char** argv) throw (Exception) {
+void Application::parse_arguments(int argc, char** argv) throw () {
 
     if (argc != 3) {
 
@@ -36,7 +36,7 @@ void Application::parse_arguments(int argc, char** argv) throw (Exception) {
     m_filename.assign(argv[2]);
 }
 
-void Application::run() throw (Exception) {
+void Application::run() throw () {
 
     Logger& logger = Logger::instance();
     logger.trace("Application::run()");

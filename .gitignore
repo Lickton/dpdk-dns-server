@@ -1,0 +1,70 @@
+# Meson 构建目录
+/builddir/
+/meson-private/
+/meson-logs/
+/meson-info/
+
+# 编译生成文件
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.obj
+*.ilk
+*.pdb
+*.exp
+*.lib
+
+# 生成的可执行文件
+/bin/
+/out/
+
+# 开发环境文件
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+*.tmp
+
+# 日志和测试输出
+*.log
+*.trs
+/test-results/
+
+# 依赖目录
+/subprojects/
+/.deps/
+/.libs/
+
+# 系统特定文件
+.DS_Store
+Thumbs.db
+
+# 包管理器文件
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# 文档生成
+/docs/html/
+/docs/latex/
+/docs/xml/
+
+# 覆盖率报告
+/coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# 本地配置文件
+/local_options.txt
+/config.h
+/config.log
+/config.status
+
+# 预编译头文件
+*.gch

@@ -38,7 +38,7 @@ public:
      *  Open the hosts file and read it to stores the ipAddress-hostname pairs.
      *  @param filename Name of the file containing the pairs.
      */
-    void init(const std::string& filename) throw (Exception);
+    void init(const std::string& filename) throw ();
 
     /**
      *  Process the query and sets the response to that query. @ref Record

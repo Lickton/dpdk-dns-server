@@ -38,12 +38,12 @@ public:
      *  @param argc Number of arguments passed
      *  @param argv Array of arguments
      */
-    void parse_arguments(int argc, char** argv) throw (Exception);
+    void parse_arguments(int argc, char** argv) throw ();
 
     /**
      *  Starts the application. Initialize the @ref Resolver and the @ref Server.
      */
-    void run() throw(Exception);
+    void run() throw();
 
 private:
     int m_port;

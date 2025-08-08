@@ -17,7 +17,7 @@
 using namespace std;
 using namespace dns;
 
-void Resolver::init(const std::string& filename) throw (Exception) {
+void Resolver::init(const std::string& filename) throw () {
 
     Logger& logger = Logger::instance();
     string text("Resolver::init() | filename: ");
